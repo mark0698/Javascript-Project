@@ -2,22 +2,28 @@ const userChoice = document.querySelector('#userChoice');
 const computerChoice = document.querySelector('#computerChoice');
 const winnerIs = document.querySelector('#winnerIs');
 
+
 const choicebutton = document.querySelectorAll('.choicebutton');
+
 
 let player;
 let computer;
 let result;
 
+
 choicebutton.forEach(button => button.addEventListener('click', () => {
     player = button.textContent;
-    computersGo();
-    userChoice.textContent = `Player: ${player}`;
-    computerChoice.textContent = `Computer: ${computer}`;
-    winnerIs.textContent = checkwinner();
+    computersGo(() => {
+        userChoice.textContent = `Player: ${player}`;
+        computerChoice.textContent = `Computer: ${computer}`;
+        winnerIs.textContent = checkwinner();
+    });
 }));
 
-function computersGo() {
+
+function computersGo(callback) {
     const random = Math.floor(Math.random() * 3) + 1;
+
 
     switch (random) {
         case 1:
@@ -30,16 +36,23 @@ function computersGo() {
             computer = 'Scissors';
             break;
     }
+
+
+    callback();
 }
+
 
 function checkwinner() {
     if (player === computer) {
         return "Draw!";
-    } else if (computer === 'Rock') {
-        return (player === 'Paper') ? 'You Win!' : 'You Lose!';
-    } else if (computer === 'Paper') {
-        return (player === 'Scissors') ? 'You Win!' : 'You Lose!';
-    } else if (computer === 'Scissors') {
-        return (player === 'Rock') ? 'You Win!' : 'You Lose!';
+    } else if (
+        (player === 'Rock' && computer === 'Scissors') ||
+        (player === 'Paper' && computer === 'Rock') ||
+        (player === 'Scissors' && computer === 'Paper')
+    ) {
+        return 'You Win!';
+    } else {
+        return 'You Lose!';
     }
 }
+
