@@ -30,8 +30,8 @@ body {
 }
 
 .controls-area {
-    width: 85%;
-    margin: 30px auto;
+   width: 85%;
+   margin: 30px auto;
 }
 
 #user {
@@ -66,4 +66,17 @@ span.emoji {
 
 .result {
     color: black;
+}
+
+button {
+    background-color: white;
+    width: 33.3%;
+    height: 50px;
+    transition: all 0.5s;
+    float: left;
+}
+button:active,
+button:hover {
+    background-color: rgb(171, 85, 241);
+    color: white;
 }
