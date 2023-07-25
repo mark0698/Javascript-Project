@@ -1,46 +1,40 @@
 const userChoice = document.querySelector('#userChoice');
-const computerChoice = document.querySelector('#computerChoice');
+const computerChoiceElement = document.querySelector('#computerChoice');
 const winnerIs = document.querySelector('#winnerIs');
-
 
 const choicebutton = document.querySelectorAll('.choicebutton');
 
-
 let player;
 let computer;
-let result;
-
 
 choicebutton.forEach(button => button.addEventListener('click', () => {
     player = button.textContent;
-    computersGo(() => {
+    computersGo(computerChoice => {
         userChoice.textContent = `Player: ${player}`;
-        computerChoice.textContent = `Computer: ${computer}`;
+        computerChoiceElement.textContent = `Computer: ${computerChoice}`;
         winnerIs.textContent = checkwinner();
     });
 }));
 
-
 function computersGo(callback) {
     const random = Math.floor(Math.random() * 3) + 1;
-
+    let computerChoiceText;
 
     switch (random) {
         case 1:
-            computer = 'Rock';
+            computerChoiceText = 'Rock';
             break;
         case 2:
-            computer = 'Paper';
+            computerChoiceText = 'Paper';
             break;
         case 3:
-            computer = 'Scissors';
+            computerChoiceText = 'Scissors';
             break;
     }
 
-
-    callback();
+    computer = computerChoiceText;
+    callback(computerChoiceText);
 }
-
 
 function checkwinner() {
     if (player === computer) {
@@ -55,4 +49,3 @@ function checkwinner() {
         return 'You Lose!';
     }
 }
-
