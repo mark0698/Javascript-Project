@@ -13,14 +13,14 @@ body {
 
 .game-area {
     background-color: #6f6d6d;
-    box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
+    margin: 5% auto;
+  padding: 10px;
+  width: 120px;
+  padding: 10px;
+  width: 80%;
+  height: 80%;
+  border: 2px solid #131212;
+
 }
 
 .score-area {
