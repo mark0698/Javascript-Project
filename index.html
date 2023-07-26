@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/CSS/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <h1 class="heading">
-        Rock Paper Scissors
-    </h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="rock/paper/scissors" content="Rock paper scissors vs computer, first to 3">
+        <meta name="keywords" content="rock Paper Scissors">
+        <meta name="author" content="Mark O'Keeffe">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous"
+            rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header>
+            <h1 class="heading">
+                Rock Paper Scissors
+            </h1>
+        </header>
+        <!-- HEADER END -->
+        <main>
+            <!-- GAME AREA -->
+            <div class="game-area">
+                <div class="controls-area">
+                    <div class="button-area">
+                        <button class="choicebutton" type="button" aria-label="Press to select Rock" id="Rock">Rock
+                            &#129704;</button>
+                        <button class="choicebutton" type="button" aria-label="" id="Paper">Paper
+                            &#128221;</button>
+                        <button class="choicebutton" type="button" aria-label="" id="Scissors">Scissors
+                            &#9986;&#65039;</button>
 
-        <div class="game-area">
-            <div class="controls-area">
-                <div class="choicebutton"><button type="button">Rock &#129704;</button></div>
-                <div class="choicebutton"><button type="button">Paper &#128221;</button></div>
-                <div class="choicebutton"><button type="button">Scissors &#9986;&#65039;</button></div>
-                <span></span>
-                <div class="resultSection">
-                <div id="userChoice"></div>
-                <div id="computerChoice"></div>
-                <div id="winnerIs"></div>
+                    </div>
+                    <div class="resultSection">
+                        <div id="userChoice"></div>
+                        <div id="computerChoice"></div>
+                        <div id="winnerIs"></div>
+                    </div>
                 </div>
+                <!-- Score Area -->
+                <div class="score-area">
+                    <p class="scores">User <span id="user">0</span></p>
+                    <p class="scores">Computer <span id="computer">0</span></p>
+
+                </div>
+
             </div>
+        </main>
+        <footer>
+            Copyright Mark O'Keeffe
+        </footer>
 
-
-    <div class="score-area">
-        <p class="scores">User <span id="user">0</span></p>
-        <p class="scores">Computer <span id="computer">0</span></p>
-    
-    </div>
-   <script src="Assets/JS/script.js"></script> 
-</body>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>

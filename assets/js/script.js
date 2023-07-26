@@ -8,7 +8,7 @@ let player;
 let computer;
 
 choicebutton.forEach(button => button.addEventListener('click', () => {
-    player = button.textContent;
+    player = button.id;
     computersGo(computerChoice => {
         userChoice.textContent = `Player: ${player}`;
         computerChoiceElement.textContent = `Computer: ${computerChoice}`;
@@ -48,4 +48,5 @@ function checkwinner() {
     } else {
         return 'You Lose!';
     }
+    
 }
