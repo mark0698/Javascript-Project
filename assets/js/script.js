@@ -20,6 +20,7 @@ choicebutton.forEach(button => button.addEventListener('click', () => {
         userChoice.textContent = `Player: ${player}`;
         computerChoiceElement.textContent = `Computer: ${computerChoice}`;
         winnerIs.textContent = checkwinner();
+        updateScoreboard()
     });
 }));
 
@@ -45,8 +46,8 @@ function computersGo(callback) {
 
 function checkwinner() {
     if (player === computer) {
-        return "Draw!";
         drawScore++;
+        return "Draw!";
     } else if (
         (player === 'Rock' && computer === 'Scissors') ||
         (player === 'Paper' && computer === 'Rock') ||
