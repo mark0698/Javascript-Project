@@ -46,14 +46,19 @@ function computersGo(callback) {
 function checkwinner() {
     if (player === computer) {
         return "Draw!";
+        drawScore++;
     } else if (
         (player === 'Rock' && computer === 'Scissors') ||
         (player === 'Paper' && computer === 'Rock') ||
         (player === 'Scissors' && computer === 'Paper')
     ) {
+        playerScore++;
         return 'You Win!';
+        
     } else {
+        computerScore++;
         return 'You Lose!';
+
     }
     
 }
