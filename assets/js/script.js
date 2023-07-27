@@ -1,8 +1,8 @@
 const userChoice = document.querySelector('#userChoice');
 const computerChoiceElement = document.querySelector('#computerChoice');
 const winnerIs = document.querySelector('#winnerIs');
-const playerScoreElement = document.querySelector('#user');
-const computerScoreElement = document.querySelector('#computer');
+const playerScoreElement = document.querySelector('#userScore');
+const computerScoreElement = document.querySelector('#computerScore');
 const drawScoreElement = document.querySelector('#drawScore');
 
 const choicebutton = document.querySelectorAll('.choicebutton');
@@ -71,7 +71,7 @@ function updateScoreboard() {
   if (playerScore === 3) {
     winnerIs.textContent = "Congratulations! You win!";
   } else if (computerScore === 3) {
-    winnerIs.textContent = "You've lost the game. Try again!";
+    winnerIs.textContent = "You've lost the game. Unlucky!";
   }
 }
   
