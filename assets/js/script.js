@@ -1,14 +1,18 @@
 const userChoice = document.querySelector('#userChoice');
 const computerChoiceElement = document.querySelector('#computerChoice');
 const winnerIs = document.querySelector('#winnerIs');
-const playerScoreElement = document.querySelector('#playerScore');
-const computerScoreElement = document.querySelector('#computerScore');
+const playerScoreElement = document.querySelector('#user');
+const computerScoreElement = document.querySelector('#computer');
 const drawScoreElement = document.querySelector('#drawScore');
 
 const choicebutton = document.querySelectorAll('.choicebutton');
 
 let player;
 let computer;
+
+let playerScore = 0;
+let computerScore = 0;
+let drawScore = 0;
 
 choicebutton.forEach(button => button.addEventListener('click', () => {
     player = button.id;
