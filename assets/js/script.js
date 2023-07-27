@@ -67,5 +67,13 @@ function updateScoreboard() {
     playerScoreElement.textContent = playerScore;
     computerScoreElement.textContent = computerScore;
     drawScoreElement.textContent = drawScore;
+
+  if (playerScore === 3) {
+    winnerIs.textContent = "Congratulations! You win!";
+  } else if (computerScore === 3) {
+    winnerIs.textContent = "You've lost the game. Try again!";
   }
+}
   
+  
+
