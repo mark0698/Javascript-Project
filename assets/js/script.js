@@ -57,3 +57,9 @@ function checkwinner() {
     }
     
 }
+function updateScoreboard() {
+    playerScoreElement.textContent = playerScore;
+    computerScoreElement.textContent = computerScore;
+    drawScoreElement.textContent = drawScore;
+  }
+  
