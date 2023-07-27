@@ -40,14 +40,15 @@ body {
 }
 
 #user {
-    color: green;
+    color: rgb(244, 248, 244);
     font-weight: bold;
-    width: 50%;
+    font-style: italic;
 }
 
 #computer {
-    color: red;
+    color: rgb(244, 248, 244);
     font-weight: bold;
+    font-style: italic;
 }
 
 .scores {
