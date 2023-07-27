@@ -75,5 +75,9 @@ function updateScoreboard() {
   }
 }
   
-  
+  function reset (){
+    playerScore = 0;
+    computerScore = 0;
+    drawScore = 0;
+  }
 
