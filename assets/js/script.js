@@ -1,3 +1,4 @@
+/* declaring of all variables used throughtout */
 const userChoice = document.querySelector('#userChoice');
 const computerChoiceElement = document.querySelector('#computerChoice');
 const winnerIs = document.querySelector('#winnerIs');
@@ -12,7 +13,7 @@ let computer;
 let playerScore = 0;
 let computerScore = 0;
 let drawScore = 0;
-
+/* For Each loop that runs through player and computer choice and calls on functions*/
 choicebutton.forEach(button => button.addEventListener('click', () => {
     player = button.id;
     computersGo(computerChoice => {
@@ -26,7 +27,7 @@ choicebutton.forEach(button => button.addEventListener('click', () => {
         });
       }));
  
-
+/* function for computer to choose a random choice */
 function computersGo(callback) {
     const random = Math.floor(Math.random() * 3) + 1;
     let computerChoiceText;
@@ -46,7 +47,7 @@ function computersGo(callback) {
     computer = computerChoiceText;
     callback(computerChoiceText);
 }
-
+/* function that checks user choice and checks computer choice and compares */
 function checkwinner() {
     if (player === computer) {
         drawScore++;
@@ -66,6 +67,7 @@ function checkwinner() {
     }
     
 }
+/* function for uodating scoreboard and resetting when winner reaches 3*/
 function updateScoreboard() {
     playerScoreElement.textContent = playerScore;
     computerScoreElement.textContent = computerScore;
@@ -78,7 +80,7 @@ function updateScoreboard() {
   }
 
 }
-  
+  /* function to reset scores to zero */
   function reset (){
     playerScore = 0;
     computerScore = 0;
