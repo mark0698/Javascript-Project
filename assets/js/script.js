@@ -21,6 +21,9 @@ choicebutton.forEach(button => button.addEventListener('click', () => {
         computerChoiceElement.textContent = `Computer: ${computerChoice}`;
         winnerIs.textContent = checkwinner();
         updateScoreboard()
+        if (playerScore === 3 || computerScore === 3) {
+            reset ()
+          }
     });
 }));
 
@@ -73,6 +76,7 @@ function updateScoreboard() {
   } else if (computerScore === 3) {
     winnerIs.textContent = "You've lost the game. Unlucky!";
   }
+
 }
   
   function reset (){
