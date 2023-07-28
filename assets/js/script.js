@@ -87,3 +87,8 @@ function updateScoreboard() {
     drawScore = 0;
   }
 
+  function showAlert() {
+    var myText = "This is a game of Rock Paper Scissors designed for my Project 2 with the Code Institue, In this game you will play against the computer in a First to Three game. Enjoy!";
+    alert (myText);
+  }
+ 
