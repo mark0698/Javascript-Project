@@ -31,7 +31,7 @@ body {
 }
 
 .score-area {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .controls-area {
@@ -87,7 +87,8 @@ button:hover {
     color: white;
 }
 .resultSection {
-    color: rgb(197, 242, 34);
+    color: white;
+    font-size: 2.5rem;
 }
 
 

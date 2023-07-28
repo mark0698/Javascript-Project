@@ -22,10 +22,11 @@ choicebutton.forEach(button => button.addEventListener('click', () => {
         winnerIs.textContent = checkwinner();
         updateScoreboard()
         if (playerScore === 3 || computerScore === 3) {
-            reset ()
+            reset()
           }
-    });
-}));
+        });
+      }));
+ 
 
 function computersGo(callback) {
     const random = Math.floor(Math.random() * 3) + 1;
