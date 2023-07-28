@@ -1,3 +1,4 @@
+/*Body style*/
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
@@ -5,19 +6,19 @@ body {
     text-align: center;
 }
 
-
+/* Heading style */
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
-
+/* Styling targetting button area of the game located in the Game area */
 .button-area {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* Styling targetting Game area */
 .game-area {
     background-color: #6f6d6d;
     margin: 5% auto;
@@ -29,46 +30,35 @@ body {
   border: 2px solid #131212;
 
 }
-
+/* Styling for the score display */
 .score-area {
     font-size: 3.5rem;
 }
-
+/* Styling controls area of the game located in the Game area */
 .controls-area {
    width: 85%;
    margin: 30px auto;
 }
-
+/* Styling for the user score count */
 #user {
     color: rgb(244, 248, 244);
     font-weight: bold;
     font-style: italic;
 }
-
+/* Styling for the computer score count */
 #computer {
     color: rgb(244, 248, 244);
     font-weight: bold;
     font-style: italic;
 }
-
+/* Styling for the overall game score */
 .scores {
     display: inline-block;
     padding: 25px;
     color: rgb(19, 237, 237);
 }
 
-
-.btn {
-    width: 220px;
-    height: 100px;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: white;
-}
-span.emoji {
-    font-size: 40px;
-}
+/* Styling for buttons for the game */
 
 button {
     background-color: white;
@@ -82,12 +72,13 @@ button:hover {
     background-color: rgb(171, 85, 241);
     color: white;
 }
+/* Styling for results for each individual game */
 .resultSection {
-    color: white;
+    color: black;
     font-size: 2.5rem;
 }
 
-
+/* Styling for responsivness */
 @media screen and (max-width: 500px) {
     .button-area {
         flex-direction: column;

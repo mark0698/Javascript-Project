@@ -4,7 +4,6 @@ const winnerIs = document.querySelector('#winnerIs');
 const playerScoreElement = document.querySelector('#userScore');
 const computerScoreElement = document.querySelector('#computerScore');
 const drawScoreElement = document.querySelector('#drawScore');
-
 const choicebutton = document.querySelectorAll('.choicebutton');
 
 let player;
