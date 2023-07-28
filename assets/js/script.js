@@ -72,9 +72,9 @@ function updateScoreboard() {
     drawScoreElement.textContent = drawScore;
 
   if (playerScore === 3) {
-    winnerIs.textContent = "Congratulations! You win!";
+    winnerIs.textContent = "Congratulations! You win! Make a choice to play again";
   } else if (computerScore === 3) {
-    winnerIs.textContent = "You've lost the game. Unlucky!";
+    winnerIs.textContent = "You've lost the game. Unlucky! Make a choice to play again";
   }
 
 }
