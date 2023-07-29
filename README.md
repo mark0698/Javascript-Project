@@ -2,7 +2,7 @@
 <h2>Rock Paper Scissors</h2>
 
 <p>This is a user vs computer game of Rock Paper Scissors first to 3, The game utilises loops and functions for its logic.</p>
-<img>
+<img src= "assets/images/documentation/mock.png">
 <h4><u>Content</u></h4>
 <li>Features</ul>
 <li>Existing features
@@ -100,11 +100,13 @@ The fonts used throughout the body of the page are font-family: "Raleway", sans-
 <img src="assets/images/documentation/clone.png">
 
 <h3><u>Credits</u></h3>
+<ul>
 <li>The color palette was created using <a href="https://coolors.co">Coolors</a></li>
 <li>The Project was deployed using <a href="https://github.com/">Github</a></li>
 <li>The project was written in <a href="https://www.gitpod.io/">Gitpod</a></li>
 <li>The emoji icons codes were from <a href="http://unicode.org/emoji/charts/full-emoji-list.html">UniCode</a></li>
 <li>Coding and syntax related queries were solved using <a href="https://codeinstitute.net/ie/">Code Institute</a>, <a href="https://www.w3schools.com/">W3schools</a>, <a href="https://www.w3.org/">W3</a> and <a href="https://stackoverflow.com/">Stack overflow</a></li>
+</ul>
 
 
 <h3><u>Acknowledgements</u></h3>
