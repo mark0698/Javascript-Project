@@ -154,5 +154,7 @@ button:hover {
     .scores {
         flex-direction: column;
     }
-
+.resultSection {
+    font: 1.5em;
+}
 }

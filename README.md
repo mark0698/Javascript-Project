@@ -2,7 +2,7 @@
 <h2>Rock Paper Scissors</h2>
 
 <p>This is a user vs computer game of Rock Paper Scissors first to 3, The game utilises loops and functions for its logic.</p>
-<img src= "assets/images/documentation/mock.png">
+<img src= "assets/images/documentation/mockup.png">
 <h4><u>Content</u></h4>
 <li>Features</ul>
 <li>Existing features
