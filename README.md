@@ -48,3 +48,9 @@ The fonts used throughout the body of the page are font-family: "Raleway", sans-
 <li><a href="https://en.wikipedia.org/wiki/JavaScript">JS</a>- provides the functionality and styling.</li>
 <li><a href="https://github.com/">Github</a>- used to host and edit the website.</li>
 <li><a href="https://www.gitpod.io/">Gitpod</a>- used to deploy the website</li>
+
+<h3><u>Testing</u></h3>
+<h4>Code Validation</h4>
+<p>This project has been throughly tested. All the code has been run through the W3C html Validator and the W3C CSS Validator. Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both.
+<h4>HTML test</h4>
+<img src="assets/images/documentation/htmlTest.png">

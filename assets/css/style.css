@@ -40,7 +40,7 @@ body {
 }
 /* Styling for the user score count */
 #user {
-    color: (244, 248, 244);
+    color: white;
     font-weight: bold;
     font-style: italic;
 }
@@ -53,8 +53,7 @@ body {
 /* Styling for the overall game score */
 .scores {
     display: inline-block;
-    padding: 25px;
-    color: rgb (45, 216, 129)    ;
+    padding:  #2DD881;
 }
 
 /* Styling for buttons for the game */
