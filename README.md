@@ -59,3 +59,15 @@ The fonts used throughout the body of the page are font-family: "Raleway", sans-
 <h4>Javascript test</h4>
 <img src="assets/images/documentation/js.png">
 
+<h3><u>Additional Testing</u></h3>
+<h4>Google Lighthouse</h4>
+<p>My site was also tested using Google Lighthouse in Chrome Developer Tools to test my webpage for:
+
+<li>Performance - How the page performs whilst loading.</li>
+<li>Accessibility - Is the site acccessible for all users and how can it be improved.</li>
+<li>Best Practices - Site conforms to industry best practices.</li>
+<li>SEO - Search engine optimisation. Is the site optimised for search engine result rankings.</li></p>
+<img src="assets/images/documentation/lighthouse.png">
+
+<h4><u>Browser Compatibility</u></h4>
+<p>The site was tested on the following browsers with no visible issues for the user. Google Chrome, Microsoft Edge, Safari and Mozilla Firefox.</p>
