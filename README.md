@@ -54,3 +54,8 @@ The fonts used throughout the body of the page are font-family: "Raleway", sans-
 <p>This project has been throughly tested. All the code has been run through the W3C html Validator and the W3C CSS Validator. Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both.
 <h4>HTML test</h4>
 <img src="assets/images/documentation/htmlTest.png">
+<h4>CSS Test</h4>
+<img src="assets/images/documentation/css.png">
+<h4>Javascript test</h4>
+<img src="assets/images/documentation/js.png">
+
