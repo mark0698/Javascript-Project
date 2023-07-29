@@ -7,7 +7,6 @@
 <li>Features</ul>
 <li>Existing features
 <li>Features left to implement
-<li>Site structure
 <li>Design Choices
 <li>Typography</li>
 <li>Color scheme</li>
@@ -31,3 +30,21 @@
 <p>The results section is where the results of each individual hand of rock paper scissors are displayed, it take the users choice and compares it with a randomly generated number for the computer.
 <li>Score Section</li>
 <p>The score section keeps track of who has won the games and how many draws there has been, it is first to three and on three the scoreboard resets.
+
+<h3><u>Features left to implement </u></h3>
+<h4>Pop Up Rule Screen</h4>
+<p>A pop up full sized screen on screen load that runs through rules and explains what the web page is, similair to a terms and conditions page on some websites where by you can not play until a box ticked.
+
+<h3><u>Design Choices</u></h3>
+<h4>Typography</h4>
+The fonts used throughout the body of the page are font-family: "Raleway", sans-serif; both of which I retrieved from Google fonts.
+<h4>Colour Scheme</h4>
+<p>These can be seen in the palette below:
+<img src="assets/images/documentation/JS pallette.png">
+
+<h3><u>Technology Used</u></h3>
+<li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a>- provides the content and structure for the website</li>
+<li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a>- provides the styling.</li>
+<li><a href="https://en.wikipedia.org/wiki/JavaScript">JS</a>- provides the functionality and styling.</li>
+<li><a href="https://github.com/">Github</a>- used to host and edit the website.</li>
+<li><a href="https://www.gitpod.io/">Gitpod</a>- used to deploy the website</li>

@@ -40,13 +40,13 @@ body {
 }
 /* Styling for the user score count */
 #user {
-    color: rgb(244, 248, 244);
+    color: (244, 248, 244);
     font-weight: bold;
     font-style: italic;
 }
 /* Styling for the computer score count */
 #computer {
-    color: rgb(244, 248, 244);
+    color: white;
     font-weight: bold;
     font-style: italic;
 }
@@ -54,7 +54,7 @@ body {
 .scores {
     display: inline-block;
     padding: 25px;
-    color: rgb(19, 237, 237);
+    color: rgb (45, 216, 129)    ;
 }
 
 /* Styling for buttons for the game */
@@ -68,7 +68,7 @@ button {
 }
 button:active,
 button:hover {
-    background-color: rgb(171, 85, 241);
+    background-color: #ab55f1;
     color: white;
 }
 /* Styling for results for each individual game */
