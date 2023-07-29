@@ -87,5 +87,8 @@ button:hover {
 
         width: 100%;
     }
-
+    .scores {
+        flex-direction: column;
+    }
+ 
 }
