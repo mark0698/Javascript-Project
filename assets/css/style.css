@@ -39,16 +39,15 @@ body {
    margin: 30px auto;
 }
 /* Styling for the user score count */
-#user {
-    color: white;
+#userScore {
     font-weight: bold;
-    font-style: italic;
+
 }
 /* Styling for the computer score count */
-#computer {
-    color: white;
+#computerScore {
     font-weight: bold;
-    font-style: italic;
+    
+   
 }
 /* Styling for the overall game score */
 .scores {
