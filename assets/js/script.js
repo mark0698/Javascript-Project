@@ -9,7 +9,6 @@ const choiceButton = document.querySelectorAll(".choice-button");
 
 const startButton = document.getElementById("start-game");
 const readRulesButton = document.getElementById("read-rules");
-const whateverButton = document.getElementById("whatever");
 
 const gameScreen = document.querySelector(".game-screen");
 const startScreen = document.querySelector(".start-screen");
