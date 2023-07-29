@@ -76,3 +76,36 @@ The fonts used throughout the body of the page are font-family: "Raleway", sans-
 <li>Computer VS User</li>
 <p> On my intial push of the javascript loop it was returning "you lose" everytime, after much investigation, research and consultation with my mentor, I was able to identify that the code was looking for exact matches in the players choice and the computers choice, however the players choice text had emojis in it which meant it was not an exact match, i was able to recitify this issue by adding ID's to the buttons and looking for matches there instead of within the text displayed on the button.
 <img src="assets/images/documentation/buttonid.png">
+
+<h3><u>Deployment</u></h3>
+<h4>To deploy the project</h4>
+<p>The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+<ol>
+<li>In the GitHub repository, navigate to the Settings tab.</li>
+<li>Once in Settings, navigate to the Pages tab on the left hand side.</li>
+<li>Under Source, select the branch to main, then click save.</li>
+<li>Once the main branch has been selected, the page will be automatically refresh and the project will be available at the below link </li>
+<li>The repository can be found at <a>https://mark0698.github.io/Javascript-Project/</a>
+<img src="assets/images/documentation/pages.png">
+
+<h4>To create a local clone of the project</h4>
+<ol>
+<li>Click on the tab titled "code".</li>
+<li>In the Clone with HTTPS section, click on the copy and paste button next to the URL</li>
+<li>In your IDE of choice, open Git Bash.</li>
+<li>Change the directory to the location where you would like the repository</li>
+<li>Type git clone, and then paste the URL copied from GitHub.</li>
+<li>Press enter and a local copy of the repository will be created</li>
+</ol>
+<img src="assets/images/documentation/clone.png">
+
+<h3><u>Credits</u></h3>
+<li>The color palette was created using <a href="https://coolors.co">Coolors</a></li>
+<li>The Project was deployed using <a href="https://github.com/">Github</a></li>
+<li>The project was written in <a href="https://www.gitpod.io/">Gitpod</a></li>
+<li>The emoji icons codes were from <a href="http://unicode.org/emoji/charts/full-emoji-list.html">UniCode</a></li>
+<li>Coding and syntax related queries were solved using <a href="https://codeinstitute.net/ie/">Code Institute</a>, <a href="https://www.w3schools.com/">W3schools</a>, <a href="https://www.w3.org/">W3</a> and <a href="https://stackoverflow.com/">Stack overflow</a></li>
+
+
+<h3><u>Acknowledgements</u></h3>
+<p>I would like to thank Aleksei Konovalov my mentor for his help throughout this project with regards brainstorming ideas and and questions I had, as well Aleksei I would like to thank The Code Institue for help on my studies thus far.</p>
