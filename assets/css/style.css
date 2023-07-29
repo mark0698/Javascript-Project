@@ -4,55 +4,97 @@ body {
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+main {
+    flex: 1 0 auto;
+}
+
+
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.start-screen-btn {
+    margin: 10px 0;
+    font-size: 2em;
+    padding: .5em 1em !important;
+    height: auto;
+    border-radius: .3em;
+    max-width: 10em;
+    width: 100%;
+}
+
+.start-screen-btn:hover {
+    transform: scale(1.05);
+}
+
 
 /* Heading style */
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
-/* Styling targetting button area of the game located in the Game area */
+
+/* Styling targeting button area of the game located in the Game area */
 .button-area {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-/* Styling targetting Game area */
+
+.game-screen {
+    display: none;
+}
+
+/* Styling targeting Game area */
 .game-area {
     background-color: #6f6d6d;
     margin: 5% auto;
-  padding: 10px;
-  padding: 10px;
-  width: 80%;
-  height: 80%;
-  border: 2px solid #131212;
+    padding: 10px;
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+    border: 2px solid #131212;
 
 }
+
 /* Styling for the score display */
 .score-area {
     font-size: 3.5rem;
 }
+
 /* Styling controls area of the game located in the Game area */
 .controls-area {
-   width: 85%;
-   margin: 30px auto;
+    width: 85%;
+    margin: 30px auto;
 }
+
 /* Styling for the user score count */
 #userScore {
     font-weight: bold;
 
 }
+
 /* Styling for the computer score count */
 #computerScore {
     font-weight: bold;
-    
-   
+
+
 }
+
 /* Styling for the overall game score */
 .scores {
     display: inline-block;
-    color:  #2DD881;
+    color: #2DD881;
 }
 
 /* Styling for buttons for the game */
@@ -64,29 +106,53 @@ button {
     transition: all 0.5s;
     float: left;
 }
+
 button:active,
 button:hover {
     background-color: #ab55f1;
     color: white;
 }
+
 /* Styling for results for each individual game */
 .resultSection {
     color: black;
     font-size: 2.5rem;
 }
 
-/* Styling for responsivness */
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, .9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.modal-container {
+    background-color: green;
+    padding: 3em 4em;
+    width: 70%;
+}
+
+/* Styling for responsiveness */
 @media screen and (max-width: 500px) {
     .button-area {
         flex-direction: column;
     }
 
-    .button-area button{
+    .button-area button {
 
         width: 100%;
     }
+
     .scores {
         flex-direction: column;
     }
- 
+
 }
