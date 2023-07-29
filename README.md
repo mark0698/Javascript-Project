@@ -21,9 +21,7 @@
 <h3><u>Features</u></h3>
 <h4><u>Existing feautures</u></h4>
 <li>Landing page</li>
-<p>The index.html page is the only page of the website, it is host to the game and scoreboard.
-<li>Notification on load</li>
-<p>Upon load, the user is greated with a notification from the browser with regards some of the rules, this can be removed by clicking ok.
+<p>The index.html page is the only page of the website, it is host to the game and scoreboard. On load you are greated by a modal that overlays the game.
 <li>Game Section</li>
 <p>The game section is host to the controls of the game, these include three buttons signifying rock paper and scissors. The user can choose at random.
 <li>Results Section</li>
@@ -72,7 +70,7 @@ The fonts used throughout the body of the page are font-family: "Raleway", sans-
 <h4><u>Browser Compatibility</u></h4>
 <p>The site was tested on the following browsers with no visible issues for the user. Google Chrome, Microsoft Edge, Safari and Mozilla Firefox.</p>
 
-<h4><u>Known bugs</u></h4>
+<h4><u>Fixed bugs</u></h4>
 <li>Computer VS User</li>
 <p> On my intial push of the javascript loop it was returning "you lose" everytime, after much investigation, research and consultation with my mentor, I was able to identify that the code was looking for exact matches in the players choice and the computers choice, however the players choice text had emojis in it which meant it was not an exact match, i was able to recitify this issue by adding ID's to the buttons and looking for matches there instead of within the text displayed on the button.
 <img src="assets/images/documentation/buttonid.png">

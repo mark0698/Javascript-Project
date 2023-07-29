@@ -14,7 +14,7 @@ const gameScreen = document.querySelector(".game-screen");
 const startScreen = document.querySelector(".start-screen");
 
 const modal = document.querySelector(".modal-overlay");
-
+ /** Adding a click event listner for the Rules page to appear */
 readRulesButton.addEventListener("click", () => {
   modal.style.display = "flex";
 });
@@ -26,6 +26,7 @@ modal.addEventListener("click", (e) => {
   }
 });
 
+/** Start game button to make the menu disappear */
 startButton.addEventListener("click", () => {
   startScreen.style.display = "none";
   gameScreen.style.display = "block";
@@ -37,7 +38,7 @@ let computer;
 let playerScore = 0;
 let computerScore = 0;
 let drawScore = 0;
-/* For Each loop that runs through player and computer choice and calls on functions*/
+/** For Each loop that runs through player and computer choice and calls on functions*/
 choiceButton.forEach((button) =>
   button.addEventListener("click", () => {
     player = button.id;
@@ -90,7 +91,7 @@ function checkWinner() {
     return "You Lose!";
   }
 }
-/* function for uodating scoreboard and resetting when winner reaches 3*/
+/** function for uodating scoreboard and resetting when winner reaches 3*/
 function updateScoreboard() {
   playerScoreElement.textContent = playerScore;
   computerScoreElement.textContent = computerScore;
@@ -104,7 +105,7 @@ function updateScoreboard() {
       "You've lost the game. Unlucky! Make a choice to play again";
   }
 }
-/* function to reset scores to zero */
+/** function to reset scores to zero */
 function reset() {
   playerScore = 0;
   computerScore = 0;
