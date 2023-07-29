@@ -88,7 +88,7 @@ function updateScoreboard() {
   }
 
   function showAlert() {
-    var myText = "This is a game of Rock Paper Scissors designed for my Project 2 with the Code Institue, In this game you will play against the computer in a First to Three game. Press Ok and make a choice to behin. Enjoy!";
+    var myText = "This is a game of Rock Paper Scissors designed for my Project 2 with the Code Institue, In this game you will play against the computer in a First to Three game. Press Ok and make a choice to begin. Enjoy!";
     alert (myText);
   }
  
